@@ -54,7 +54,7 @@ pip install -r requirements.txt
 To train and evaluate the GLEAD model, run:
 
 ```bash
-python main.py --dataset_path ./data/BGL.log_structured_v1.csv
+python main.py --dataset_path ../data/BGL.log_structured_v1.csv
 ```
 
 ### **Workflow**
@@ -107,7 +107,7 @@ python main.py --dataset_path ./data/BGL.log_structured_v1.csv
 Example usage:
 
 ```bash
-python main.py --dataset_path ./data/BGL.log_structured_v1.csv --epochs 100 --batch_size_train 256
+python main.py --dataset_path ../data/BGL.log_structured_v1.csv --epochs 100 --batch_size_train 256
 ```
 
 ---
