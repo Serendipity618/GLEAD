@@ -15,7 +15,7 @@ This repository provides:
 ---
 
 ## 📖 **Introduction**
-Anomaly detection in sequential data is crucial for detecting novel attacks or abnormal system behaviors, particularly from log messages. While anomaly detection models perform well at detecting anomalies, providing **explanations** for these detections is still a challenge. This project introduces **GLEAD (Globally and Locally Explainable Anomaly Detection)**, a framework that provides **local and global explanations** for anomaly detection results by highlighting the **anomalous entries** in the sequen...
+Anomaly detection in sequential data is crucial for identifying novel attacks or abnormal system behaviors, particularly in log messages. While anomaly detection models excel at flagging anomalies, providing **explanations** for these detections remains challenging. This project introduces **GLEAD (Globally and Locally Explainable Anomaly Detection)**, a framework that enhances interpretability by offering **local and global explanations** for sequence anomaly detection. 
 
 ---
 
