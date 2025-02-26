@@ -22,7 +22,7 @@ Anomaly detection in sequential data is crucial for identifying novel attacks or
 ## 📄 **Reference Paper**
 This project is based on the following research:
 
-**Title:** [Sequential Anomaly Detection with Local and Global Explanations (IEEE)](https://ieeexplore.ieee.org/document/1234567)  
+**Title:** [Sequential Anomaly Detection with Local and Global Explanations (IEEE)](https://ieeexplore.ieee.org/abstract/document/10020990)  
 **Authors:** He Cheng, Depeng Xu, Shuhan Yuan  
 **Publication Date:** December 17, 2022  
 **Conference:** 2022 IEEE International Conference on Big Data (Big Data)  
