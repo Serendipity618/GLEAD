@@ -14,8 +14,9 @@ device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
 def main():
     parser = argparse.ArgumentParser(description='Train and evaluate GLEAD model for anomaly detection.')
-    parser.add_argument('--output_path', type=str, default='./output/result/', help='Path to save evaluation results')
-    parser.add_argument('--top_log_path', type=str, default='./output/top_log/', help='Path to save top log entries')
+    parser.add_argument('--dataset_path', type=str, default='../data/BGL.log_structured_v1.csv', help='Path to dataset')
+    parser.add_argument('--output_path', type=str, default='../output/result/', help='Path to save evaluation results')
+    parser.add_argument('--top_log_path', type=str, default='../output/top_log/', help='Path to save top log entries')
     parser.add_argument('--epochs', type=int, default=150, help='Number of training epochs')
     parser.add_argument('--lambda_p', type=float, default=1.0, help='Regularization parameter')
     parser.add_argument('--hidden_size', type=int, default=150, help='Hidden layer size')
@@ -25,7 +26,6 @@ def main():
     parser.add_argument('--batch_size_val', type=int, default=20, help='Batch size for validation')
     parser.add_argument('--batch_size_test', type=int, default=1000, help='Batch size for testing')
     parser.add_argument('--learning_rate', type=float, default=0.005, help='Learning rate for optimizer')
-    parser.add_argument('--dataset_path', type=str, default='data/BGL.log_structured_v1.csv', help='Path to dataset')
     args = parser.parse_args()
 
     # Data Preprocessing
